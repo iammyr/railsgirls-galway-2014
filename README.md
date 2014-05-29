@@ -7,15 +7,21 @@ Visualization of touristic places in Galway (Ireland) that are autism-friendly. 
 
 Developing this application the RailsGirls attendees will implement the following functionalities and achieve the following learning milestones:
 
-<ul>
-<li>Version control with Git</li>
-<li>Continuous Deployment on OpenShift<li>
-<li>Unit Testing<li>
-<li>Google Places collection<li>
-<li>Google Places visualization in a Google Map<li>
-<li>Google Map visualization<li>
-<li>Google Map bookmarks customization.<li>
-</ul>
+
+* Version control with Git
+
+* Continuous Deployment on OpenShift
+
+* Unit Testing
+
+* Google Places collection
+
+* Google Places visualization in a Google Map
+
+* Google Map visualization
+
+* Google Map bookmarks customization.
+
 
 Check out the [step-by-step tutorial](https://github.com/iammyr/railsgirls.github.com/blob/master/_posts/2014-05-29-touristic-autism-friendly-spot-app.markdown) to implement this application.
 
