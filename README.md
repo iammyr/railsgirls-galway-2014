@@ -1,10 +1,3 @@
-
----
-layout: default
-title: Touristic Autism-friendly Spots App 
-permalink: app
----
-
 # Touristic Autism-friendly Spots in Galway(Ireland) - RailsGirls Application
 
 *Created by Myriam Leggieri, [@iammyr](https://twitter.com/iammyr)*
@@ -24,6 +17,6 @@ Developing this application the RailsGirls attendees will implement the followin
 <li>Google Map bookmarks customization.<li>
 </ul>
 
-Check out the [step-by-step tutorial]() to implement this application.
+Check out the [step-by-step tutorial](https://github.com/iammyr/railsgirls.github.com/blob/master/_posts/2014-05-29-touristic-autism-friendly-spot-app.markdown) to implement this application.
 
 
