@@ -18,7 +18,7 @@ class PlacesControllerTest < ActionController::TestCase
 
   test "should create place" do
     assert_difference('Place.count') do
-      post :create, place: { address: @place.address, autism_friendly: @place.autism_friendly, description: @place.description, latitude: @place.latitude, longitude: @place.longitude, name: @place.name, picture: @place.picture }
+      post :create, place: { address: @place.address, description: @place.description, latitude: @place.latitude, longitude: @place.longitude, name: @place.name, picture: @place.picture }
     end
 
     assert_redirected_to place_path(assigns(:place))
@@ -35,7 +35,7 @@ class PlacesControllerTest < ActionController::TestCase
   end
 
   test "should update place" do
-    patch :update, id: @place, place: { address: @place.address, autism_friendly: @place.autism_friendly, description: @place.description, latitude: @place.latitude, longitude: @place.longitude, name: @place.name, picture: @place.picture }
+    patch :update, id: @place, place: { address: @place.address, description: @place.description, latitude: @place.latitude, longitude: @place.longitude, name: @place.name, picture: @place.picture }
     assert_redirected_to place_path(assigns(:place))
   end
 

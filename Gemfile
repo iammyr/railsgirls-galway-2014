@@ -8,7 +8,7 @@ gem 'rails', '4.1.1'
 
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-# Use PostgreSQL for OpenShift
+# Use PostgreSQL for OpenShift in production
 gem 'sqlite3', :group => [:development, :test]
 gem 'pg', :group => [:production]
 

@@ -6,7 +6,6 @@ class CreatePlaces < ActiveRecord::Migration
       t.decimal :latitude
       t.decimal :longitude
       t.text :description
-      t.boolean :autism_friendly
       t.string :picture
 
       t.timestamps

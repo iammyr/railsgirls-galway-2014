@@ -6,7 +6,6 @@ one:
   latitude: 9.99
   longitude: 9.99
   description: MyText
-  autism_friendly: false
   picture: MyString
 
 two:
@@ -15,5 +14,4 @@ two:
   latitude: 9.99
   longitude: 9.99
   description: MyText
-  autism_friendly: false
   picture: MyString

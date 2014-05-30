@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140530125238) do
+ActiveRecord::Schema.define(version: 20140530224357) do
 
   create_table "places", force: true do |t|
     t.string   "name"
@@ -19,7 +19,6 @@ ActiveRecord::Schema.define(version: 20140530125238) do
     t.decimal  "latitude"
     t.decimal  "longitude"
     t.text     "description"
-    t.boolean  "autism_friendly"
     t.string   "picture"
     t.datetime "created_at"
     t.datetime "updated_at"
